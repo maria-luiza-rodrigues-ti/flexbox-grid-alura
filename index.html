@@ -18,10 +18,22 @@
   </head>
   
   <body>
-      <header class="navigation">
-          <button class="navigation__menu">menu</button>
-          <img src="assets/img/logo.svg" alt="Logotipo da HZC" class="navigation__logo">
-          <button class="navigation__notification">notificação</button>
+      <header class="cabecalho">
+          <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
+          <img src="assets/img/logo.svg" alt="Logotipo da HZC" class="cabecalho__logo">
+          <button class="cabecalho__notificacao" aria-label="Notificação"><i></i></button>
       </header>
+
+      <nav class="menu-lateral menu-lateral--ativo">
+        <img src="assets/img/logo.svg" alt="Logotipo da HZC" class="menu-lateral__logo">
+        <a href="#" class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo">Início</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--videos">Vídeos</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--picos">Picos</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--integrantes">Integrantes</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--camisas">Camisas</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--pinturas">Pinturas</a>
+      </nav>
+      
+      <script src="index.js"></script>
   </body>
 </html>

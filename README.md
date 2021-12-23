@@ -48,7 +48,7 @@ Estão dentro do arquivo de fonte `icones.ttf`. Para usar, primeiro importe a fo
 
 > Cuidado com a localização do arquivo `icones.ttf`
 
-Camisas = `\e900`
+Camisas = `\e903`
 
 Carrinho = `\e901`
 
