@@ -104,6 +104,8 @@ body{
 
 .principal {
     padding: 24px 16px;
+    display: grid;
+    gap: 16px;
 }
 
 .titulo-pagina {
@@ -118,10 +120,15 @@ body{
     background-color: #2c343a;
 }
 
+.cartao--destaque {
+    margin-bottom: 16px;
+}
+
 .cartao__conteudo {
     padding: 16px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 8px;
 }
 
 .cartao__destaque {
@@ -164,9 +171,11 @@ body{
     height: 40px;
     border-radius: 10px;
     font-size: 0.9rem;
+    justify-self: flex-end;
+    align-items: center;
 }
 
-.cartao__botao--play {
+.cartao__botao--play::before {
     content: "\e90b";
     font-size: 24px;
 }
@@ -175,3 +184,12 @@ body{
     width: 100%;
     grid-column: span 2;
 }
+
+.cartao__botao--destaque::before {
+    margin-right: 8px;
+  }
+
+  .secao {
+      display: grid;
+      gap: 16px;
+  }
